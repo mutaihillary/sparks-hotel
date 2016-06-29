@@ -12,3 +12,9 @@ img{
 	-webkit-column-gap:3em;
 	-webkit-column-rule: 2px dotted #070641;
     -webkit-columns:250px 2;
+}
+    .mainnn {
+	-webkit-column-gap:3em;
+	-webkit-column-rule: 2px dotted #070641;
+    -webkit-columns:250px 6;
+}
