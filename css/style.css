@@ -24,7 +24,10 @@ body {
   color: #aebcb9;
   background-color:azure;
 }
-
+p{
+  font-size: 1.9rem;
+  color: #222;
+}
 a {
   text-decoration: none;
 }
@@ -115,38 +118,29 @@ a {
 /*Heading*/
 .wrapper {
   width: 90%;
-  max-width: 768px;
-  text-align: center;
   margin: 0 auto;
 }
 .header {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 10px;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+  padding-bottom: 10px;
+  border-bottom: grey solid 1px;
 }
 .logo {
   position: relative;
-  left: 30px;
 }
 /*--- Navigation Styles */
 .main-nav {
   position: relative;
-  float: right;
-  left: 410px;
+  margin-right: 0;
 }
-@media only screen and (max-width: 1170px) {
-  .main-nav {
-    left: 300px;
-  }
-}
-@media only screen and (max-width: 840px) {
-  .main-nav {
-    left: 150px;
-  }
-}
+
 @media only screen and (max-width: 768px) {
-  .main-nav {
-    left: 10px;
-  }
+  .header {
+      display: block;
+    }
 }
 .main-nav a {
     text-decoration: none;
@@ -167,15 +161,34 @@ a {
     background-size: cover;
 }
 
-.flex {
-  display: flex;
-  flex-direction: row;
+.heading {
+  width: 60%;
+  margin: 0 auto;
 }
-.footer{
-   text-decoration: none;
-    font-weight: 200;
-    color: #fff;
-    margin-left: 5px;
+
+.heading > p {
+    font-size: 24px;
+    line-height: 1.6;
+    letter-spacing: -0.03em;
+    color: #222;
+}
+.heading > h2 {
+  color: #333;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+footer{
+  margin-top: 20px;
+  font-weight: 200;
+  color: #f222;
+  width: 100%;
+  display: inline-flex;
+  justify-content: space-around;
+}
+
+.social {
+  display: inline-flex;
+  justify-content: space-around;
 }
 .google-maps-canvas{
 height:500px;
