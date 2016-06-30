@@ -178,17 +178,28 @@ a {
   margin-bottom: 5px;
 }
 footer{
-  margin-top: 20px;
+ /* margin-top: 1px;
   font-weight: 200;
   color: #f222;
   width: 100%;
   display: inline-flex;
   justify-content: space-around;
-}
+  padding-top: 5px;*/
 
-.social {
+  margin-top: 1px;
+  width: 100%;
   display: inline-flex;
   justify-content: space-around;
+  padding-top: 10px;
+  border-top: grey solid 1px;
+}
+.social {
+  width: 20px;
+  height: 20px;
+  margin: 0.5px;
+  display: inline-flex;
+  justify-content: space-around;
+
 }
 .google-maps-canvas{
 height:500px;
@@ -207,4 +218,8 @@ overflow:hidden
   max-width: 100%;
    max-height: 100%; 
    background: none;
+}
+.rights {
+  display: inline-flex;
+  justify-content: left;
 }

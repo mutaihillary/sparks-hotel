@@ -1,20 +1,28 @@
+
+/***** ABOUT PAGE*****/
 .main {
-	-webkit-column-gap:3em;
-	-webkit-column-rule: 2px dotted #070641;
+	-webkit-column-gap:2em;
+	-webkit-column-rule: 2px;
     -webkit-columns:250px 3;
+    padding: 30px;
 }
 img{
-	display: block;
+	display: inline-flex;
 	margin: 1.5em 0;
 	max-width: 100%;
+	height: auto;
 }
+/***** CONTACT PAGE*****/
 .mainn {
 	-webkit-column-gap:3em;
 	-webkit-column-rule: 2px dotted #070641;
     -webkit-columns:250px 2;
+    padding: 20px;
 }
+/***** MENU PAGE*****/
     .mainnn {
 	-webkit-column-gap:3em;
-	-webkit-column-rule: 2px dotted #070641;
-    -webkit-columns:250px 6;
+	-webkit-column-rule: 2px;
+    -webkit-columns:250px 3;
+    padding: 20px;
 }
