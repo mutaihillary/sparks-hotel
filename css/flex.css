@@ -15,7 +15,7 @@ img{
 /***** CONTACT PAGE*****/
 .mainn {
 	-webkit-column-gap:3em;
-	-webkit-column-rule: 2px dotted #070641;
+	-webkit-column-rule: 2px;
     -webkit-columns:250px 2;
     padding: 20px;
 }
